@@ -263,6 +263,33 @@ header h1 {
   display: flex;
   justify-content: center;
   padding: 0px 1.25%;
+  -webkit-animation: fade-in 0.2s linear infinite alternate;
+  -moz-animation: fade-in 0.2s linear infinite alternate;
+  animation: fade-in 0.2s linear infinite alternate;
+}
+@-moz-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 @media (max-width:500px) {
   header h1 {
