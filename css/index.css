@@ -381,6 +381,17 @@ header h1 {
   padding-left: 1%;
   padding-right: 0;
 }
+.home .inverse-content .text-content .video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  max-width: 50%;
+  max-height: 50%;
+  z-index: -100;
+  transform: translateX(-50%) translateY(-50%);
+  background-size: cover;
+  transition: 1s opacity;
+}
 .home .inverse-content .img-content {
   padding-right: 1%;
   padding-left: 0;

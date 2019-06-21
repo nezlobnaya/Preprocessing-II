@@ -37,6 +37,7 @@ header {
 
 .home {
 
+  
 
   .welcome-section {
     .welcome-content {
@@ -59,7 +60,10 @@ header {
     justify-content: space-between;
 
   
+  
     .text-content {
+      
+
       width: 48%;
       padding-right: 1%;
     }
@@ -93,9 +97,22 @@ header {
     padding-bottom: 30px;
     border-bottom: 2px dashed @navigation-border;
 
+   
+
     .text-content {
       padding-left: 1%;
       padding-right: 0;
+      .video { 
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        max-width: 50%;
+        max-height: 50%;
+        z-index: -100;
+        transform: translateX(-50%) translateY(-50%);
+        background-size: cover;
+        transition: 1s opacity;
+      }
     }
 
     .img-content {
