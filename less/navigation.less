@@ -1,1 +1,29 @@
 // Navigation Styles here
+
+
+
+    nav {
+        display:flex;
+        width: 40%;
+        justify-content: flex-start;
+        padding-right:13%;
+
+        @media @mobile {
+            width:100%;
+            flex-direction:row;
+            justify-content:space-around;
+            padding-right: 3%;
+        }
+        
+        a {
+            text-decoration:none;
+            color:@font-color;
+            font-size:1.6rem;
+            margin: 0% 3% 3%;
+            
+            &:hover{
+                color:rgb(239,207,76);
+                cursor:pointer;
+            }
+        }
+    }

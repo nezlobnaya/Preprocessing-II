@@ -16,10 +16,23 @@
 
 <body>
 
-  
-     
+  <header>
+    <h1 class="fun-bus">Fun Bus</h1>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
+      </nav>
+  </header>
   <div class="container home">
-   
+     <section class="welcome-section">
+        <img class="welcome-header-img" src="img/fun-bus.jpg" alt="Yellow bus on a sandy beach.">
+        <div class="welcome-content">
+          <h2>Welcome To Fun Bus!</h2>
+          <p>Traveling expedition modern, clean webdesign blogger clean website theme website modern. Design pretty design, travelblogger adventure WordPress wanderlust theme blogger website expedition theme travelblogger. Adventure fun traveler pretty design website expedition.</p>
+        </div>
+      </section>
     <section class="content-section">
       <div class="text-content">
         <h2>Let's Go!</h2>
@@ -64,6 +77,48 @@
         <div class="btn">Sign Me Up!</div>
       </div>
     </section>
+    <div class="Inquiry">
+      <h4>Vacation Inquiry</h4>
+      <p>Expedition excursion design darn excursion fun, clean simple organized WordPress Travel colorful webdesign. Traveler blogger website design expedition clean excursion traveling.</p>
+      <form action="/my-handling-form-page" method="post">
+        <div>
+          <label for="frmNameA">Choose your package</label>
+              <select id="state" class="pure-input-1-2">
+                 <option>Beach pleasures</option>
+                 <option>Mountain lake</option>
+                 <option>Island's solitude</option>
+              </select>
+        </div>
+        <div>
+          <label for="frmNameA">Name</label>
+          <input type="text" name="name" id="frmNameA"
+          placeholder="Full name" required autocomplete="name">
+        </div>
+        <div>
+          <label for="frmEmailA">Email</label>
+          <input type="email" name="email" id="frmEmailA"
+          placeholder="name@example.com" required autocomplete="email">
+        </div>
+        <div>
+          <label for="frmPhoneNumA">Phone</label>
+          <input type="tel" name="phone" id="frmPhoneNumA"
+          placeholder="+1-555-555-1212" required autocomplete="tel">
+        </div>
+      
+        <div>
+          <label for="frmMessageA">Your message<br></label>
+          <textarea id="frmMessageA" name="Message" placeholder="Special instructions or requests"></textarea>
+        </div>
+         <div class="pure-controls">
+               <label for="cb" class="pure-checkbox">
+               <input id="cb" type="checkbox">Subscribe to our newsletter</label>
+        </div>
+        
+        <div class="button">
+        <button type="submit">Send your message</button>
+      </div>
+     </form>
+    </div>
   </div><!-- container -->
 
   <footer class="footer">
